@@ -35,7 +35,7 @@ cmd/add.sh repo
 ```
 
 ## creating new repository
-### cmd/repos.h
+### cmd/repo.sh
 
 ```
 if [ -z $1 ];then
@@ -49,9 +49,26 @@ curl -d '{"name":"$1"}' -u githubuser:$tok https://api.github.com/user/repos
 fi
 ```
 usage
+```
+cmd/vrem.sh repo-dir
+```
 
 ```
 cmd/repo.sh reponame
 ```
+## git remote -v
+### cmd/vrem.sh
 
+usage
+```
+if [ -z $1 ];then
+echo "usage"
+else
+
+cd $1
+
+git remote -v
+
+fi
+```
 
