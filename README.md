@@ -1,4 +1,5 @@
 # git cli
+git cli scripts
 
 ## add, commit and push
 ### cmd/add.sh
@@ -17,7 +18,7 @@ echo $str1
 
 cd $1
 
-dat=$(+%D)
+dat=$(+%D|)
 
 git remote set-url origin git@github.com:usr/$str1.git
 git add . ;
