@@ -23,6 +23,5 @@ git push origin master
 
 fi
 
-#git remote add origin remote git@github.com:myrrako/sql.git
 
 
