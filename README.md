@@ -48,4 +48,10 @@ curl -d '{"name":"$1"}' -u githubuser:$tok https://api.github.com/user/repos
 
 fi
 ```
+usage
+
+```
+cmd/repo.sh reponame
+```
+
 
