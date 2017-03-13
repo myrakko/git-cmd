@@ -11,10 +11,10 @@ echo $str1
 
 cd $1
 
-git remote set-url origin git@github.com:myrakko/$str1.git
+git remote set-url origin git@github.com:usr/$str1.git
 git add . ;
 git commit -m "com";
-git remote add origin git@github.com:myrakko/$str1.git
+git remote add origin git@github.com:usr/$str1.git
 git push origin master
 
 fi
