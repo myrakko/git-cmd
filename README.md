@@ -55,7 +55,6 @@ cmd/repo.sh reponame
 ## git remote -v
 ### cmd/vrem.sh
 
-usage
 ```
 if [ -z $1 ];then
 echo "usage"
