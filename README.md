@@ -1,6 +1,8 @@
 # git cli
 
 ## add, commit and push
+### cmd/add.sh
+
 ```
 if [ -z $1 ];then
 echo "usage"
