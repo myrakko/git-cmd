@@ -28,3 +28,9 @@ git push origin master
 
 fi
 ```
+usage 
+
+```
+cmd/add.sh repo
+```
+
