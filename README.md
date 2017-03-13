@@ -50,10 +50,6 @@ fi
 ```
 usage
 ```
-cmd/vrem.sh repo-dir
-```
-
-```
 cmd/repo.sh reponame
 ```
 ## git remote -v
@@ -71,4 +67,7 @@ git remote -v
 
 fi
 ```
-
+usage
+```
+cmd/vrem.sh repo-dir
+```
