@@ -1,7 +1,7 @@
 # git cli
 
 ## add, commit and push
-
+```
 if [ -z $1 ];then
 echo "usage"
 else
@@ -22,6 +22,4 @@ git remote add origin git@github.com:usr/$str1.git
 git push origin master
 
 fi
-
-
-
+```
