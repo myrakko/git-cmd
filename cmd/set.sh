@@ -1,1 +1,1 @@
-git remote set-url origin git@github.com:myrakko/sql.git
+git remote set-url origin git@github.com:usr/repo.git
